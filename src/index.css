@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 /* Navbar style */
@@ -27,4 +28,44 @@ body {
 .nav-div > h1 {
   color: #fff;
   margin: 20px;
+}
+
+/* Cards style*/
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.cover-img {
+  width: 250px;
+  border-radius: 6px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 50px;
+}
+
+.location-img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.first-row > a {
+  margin: 20px;
+  text-decoration: none;
+  color: grey;
+}
+
+.card-props > h1 {
+  margin-left: 65px;
+  font-size: 3rem;
 }
