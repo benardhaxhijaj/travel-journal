@@ -69,3 +69,7 @@ body {
   margin-left: 65px;
   font-size: 3rem;
 }
+
+.date-p {
+  font-weight: bold;
+}

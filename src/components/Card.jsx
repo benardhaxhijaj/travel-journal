@@ -13,7 +13,7 @@ const Card = (props) => {
           <a href={props.maps}>View on Google Maps</a>
         </div>
         <h1>{props.title}</h1>
-        <span>{props.date}</span>
+        <span className="date-p">{props.date}</span>
         <p>{props.description}</p>
       </div>
     </div>
