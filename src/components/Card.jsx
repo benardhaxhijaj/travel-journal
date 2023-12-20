@@ -14,7 +14,7 @@ const Card = (props) => {
         </div>
         <h1>{props.title}</h1>
         <span className="date-p">{props.date}</span>
-        <p>{props.description}</p>
+        <p className="description-p">{props.description}</p>
       </div>
     </div>
   );
